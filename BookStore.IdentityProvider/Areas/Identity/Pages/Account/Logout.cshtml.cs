@@ -37,7 +37,7 @@ namespace BookStore.IdentityProvider.Areas.Identity.Pages.Account
             }
             else
             {
-                return RedirectToPage();
+                return Redirect("https://localhost:44339");
             }
         }
     }
